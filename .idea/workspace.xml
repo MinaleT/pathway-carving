@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7029ff-efa8-4664-8766-1436800a5365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/Book.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/BookList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/BookToast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/UserList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/reactjs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/reactjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/reactjs/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/Course.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/CourseList.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/NavigationBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/Welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reactjs/src/components/Welcome.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615658911968</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;BOOK CRUD completed&quot;">
+      <created>1615863798484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615863798484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -104,7 +103,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;reactjs folder modification to be reflected&quot;" />
     <MESSAGE value="&quot;reactjs fontawesome is utilized with jquery.2, popperjs, typescript&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;reactjs fontawesome is utilized with jquery.2, popperjs, typescript&quot;" />
+    <MESSAGE value="&quot;BOOK CRUD completed&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;BOOK CRUD completed&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615502138109">
@@ -115,10 +115,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="269" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1615677075398" />
-    <state x="381" y="8" key="CommitChangelistDialog2" timestamp="1615658911411">
+    <state x="381" y="8" key="CommitChangelistDialog2" timestamp="1615863797990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="381" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1615658911411" />
+    <state x="381" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1615863797990" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1615529982552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -147,10 +147,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1615618012899" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1615658922761">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1615863819202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1615658922761" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1615863819202" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1615617024026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
