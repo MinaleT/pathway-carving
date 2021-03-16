@@ -1,11 +1,14 @@
+import React from 'react';
 import './App.css';
+
 import {Container, Row, Col} from 'react-bootstrap';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import NavigationBar from './components/NavigationBar';
 import Welcome from './components/Welcome';
-import Course from './components/Course';
-import CourseList from './components/CourseList';
+import Book from './components/Book';
+import BookList from './components/BookList';
+import UserList from './components/UserList';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,8 +20,10 @@ function App() {
                 <Col lg={12}>
                     <Switch>
                         <Route path="/" exact component={Welcome}/>
-                        <Route path="/Course" exact component={Course}/>
-                        <Route path="/CourseList" exact component={CourseList}/>
+                        <Route path="/add" exact component={Book}/>
+                        <Route path="/edit/:id" exact component={Book}/>
+                        <Route path="/list" exact component={BookList}/>
+                        <Route path="/users" exact component={UserList}/>
                     </Switch>
                 </Col>
             </Row>
